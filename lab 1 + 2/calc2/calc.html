@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <div class = "calc"> 
+        <!-- // все -->
+        <div class="calc-screen">
+             <!-- // result -->
+            <p>0</p>
+        </div>
+        <div>  
+            <!-- блок кнопок -->
+            <div> 
+                <!-- // верхний ряд -->
+                <button id="btn_op_clear" class = "btn">C</button> 
+                <button id="btn_op_op" class = "btn">+/-</button> 
+                <button id="btn_op_op" class = "btn">%</button> 
+                <button id="btn_op_op" class = "btn">/</button> 
+            </div>
+            <div> 
+                <!-- // второй -->
+                <button id="btn_op_num" class = "btn">7</button> 
+                <button id="btn_op_num" class = "btn">8</button> 
+                <button id="btn_op_num" class = "btn">9</button> 
+                <button id="btn_op_op" class = "btn">x</button> 
+            </div>
+            <div> 
+                <!-- // третий ряд -->
+                <button id="btn_op_num" class = "btn">4</button> 
+                <button id="btn_op_num" class = "btn">5</button> 
+                <button id="btn_op_num" class = "btn">6</button> 
+                <button id="btn_op_op" class = "btn">-</button> 
+            </div>
+            <div> 
+                <!-- // 4 ряд -->
+                <button id="btn_op_clear" class = "btn">1</button> 
+                <button id="btn_op_clear" class = "btn">2</button> 
+                <button id="btn_op_clear" class = "btn">3</button> 
+                <button id="btn_op_clear" class = "btn">+</button> 
+            </div>
+            <div> 
+                <!-- // 5 ряд -->
+                <button id="btn_op_num" class = "btn">0</button> 
+                <button id="btn_op_op" class = "btn">.</button> 
+                <button id="btn_op_equal" class = "btn execute">=</button> 
+            </div>
+            <div>
+                <form action="https://github.com/iu5git/JavaScript" target="_blank">
+                    <button class = "btn git">github курса</button>
+                </form>
+                <form>
+                    <label for="select">Балл</label>
+                    <select name="grade" id="select"  class = "list">
+                        <option value="">Выберите оценку</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </form>
+            </div>
+            
+            <div class = "det">
+                <details>
+                    <summary>Автор</summary>
+                    <p>Иванов Николай ИУ5-43Б</p>
+                </details>
+            </div>
+        </div>
+    </div>
+    <p class = "text">ЛР выполнил Иванов Николай</p>
+    <div class = "inf">
+        <p>Цель данной лабораторной работы - <span class = "light">знакомство </span>  с инструментами построения пользовательских интерфейсов web-сайтов: <span class = "light"> HTML, CSS </span>.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+.page{
+    width: 1000px;
+    height: 350px;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 100px;
+    right: 0;
+    text-align: center;
+    font-size:150%;
+    margin:auto;
+}
+.page.hse{
+    width: 1500px;
+    height: 600px;
+    display: grid;
+    position: absolute;
+    /* top:0;
+    bottom: 0; */
+    left: 50px;
+    right: 0;
+    text-align: left;
+    /* background-image: url("https://vuzopedia.ru/storage/app/uploads/public/636/029/5a1/6360295a153bf527226562.jpg"); */
+    background-size: cover;
+    font-size:150%;
+}
+
+.page.msu{
+    width: auto;
+    height: 150px;
+    display: grid;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 50px;
+    right: 0;
+    text-align: left;
+    /* background-image: url("https://vuzopedia.ru/storage/app/uploads/public/636/029/5a1/6360295a153bf527226562.jpg"); */
+    background-size: cover;
+    font-size:100%;
+}
+
+.page.bmstu{
+    width: auto;
+    height: 150px;
+    display: grid;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 50px;
+    right: 0;
+    text-align: left;
+    /* background-image: url("https://vuzopedia.ru/storage/app/uploads/public/636/029/5a1/6360295a153bf527226562.jpg"); */
+    background-size: cover;
+    font-size:100%;
+}
+
+.design{
+    text-align: center;
+    font-size:larger;
+}
+.btn.btn-primary.back{
+    width: 100px;
+    margin-bottom: 20px;
+    margin-right: 520px;
+    font-size:medium;
+}
+
+.card-text.upd{
+    font-size:large;
+}
+
+.card.mb-3{
+    display:inline-block;
+    position: relative;
+}

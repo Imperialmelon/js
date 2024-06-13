@@ -1,0 +1,109 @@
+.calc{
+    width: 500px;
+    height: 650px;
+    /* border: 1px solid #000; */
+    background:grey;
+    background-size: cover;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    margin: 50px auto;
+    border-radius: 15%;
+    box-shadow: 4px 4px 4px #c1c1c1;
+    /* font-size: 4rem; */
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border: none;
+    background: #FFF;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    user-select: none;
+}
+.btn:hover{
+    background: lightgray;
+}
+.btn.execute{
+    width: 185px;
+    height: 70px;
+}
+body{
+    background:darkgray;
+    background-size: cover;
+}
+.calc-screen{
+    width: 405px;
+    height: 80px;
+    margin-bottom: 15px;         /* отступ снизу */
+    margin-left: 25px;
+    padding-right: 10px;         /* выступ справа */
+    background: rgb(73, 73, 73); /* цвет можно задавать и таким образом */
+    text-align: right;           /* примагнитим текст к правой стороне */
+    color: #ffffff;              /* цвет текста белый */
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.text{
+    position: absolute;
+    bottom: 0px;
+    color: red; 
+    font-size: xx-large;
+}
+.btn.git{
+    width: 185px;
+    height: 70px;
+    margin-right: 15px;
+    margin-left: 25px;
+    margin-top: 10px;
+    display: inline-block;
+    /* bottom: 10px;
+    left: 450px;; */
+}
+.btn.git:hover{
+    background: red
+}
+
+.list{
+    width: 185px;
+    height: 70px;
+    position: absolute;
+    margin-right: 55px; 
+
+    margin-top: 10px;
+}
+.btn.bg{
+    width: auto;
+}
+
+.det{
+    color:black;
+    background: white;
+    position: relative;
+    bottom: 40px;
+    width: 185px;
+}
+.inf{
+    position: absolute;
+    top: -10px; 
+    left: 100;
+    right: 1000px;
+    font-size: x-large;
+    color: black;
+    background: grey;
+}
+.inf.light{
+    text-shadow: #3a9fbb 0 0 10px;
+    color: #062a3a;
+}
+.light{
+    text-shadow: #3a9fbb 0 0 10px;
+    color: #062a3a;
+}
